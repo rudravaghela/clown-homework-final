@@ -1,0 +1,19 @@
+h1 {
+font-size: 50px !important; 
+}
+.btn-warning:hover{
+    background-color: green;
+}
+canvas{
+    animation-name: hahaha;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes hahaha{
+    from{
+        box-shadow: 1px 1px 40px blue;
+    }
+    to{
+        box-shadow: 1px 1px 40px orange;
+    }
+}
